@@ -8,7 +8,12 @@ import { Recipe } from '../recipe.model';
 })
 export class RecipeListComponent implements OnInit {
 
-  recipes: Recipe[] = [];
+  recipes: Recipe[] = [
+    // tslint:disable-next-line:max-line-length
+    new Recipe('Donut de Chocolate', 'Rosquilla con azucar y chocolate', 'https://www.maxpixel.net/static/photo/1x/Toppings-Snack-Sweets-Plate-Chocolate-Food-Donut-2590583.jpg'),
+    // tslint:disable-next-line:max-line-length
+    new Recipe('Donut de Chocolate', 'Rosquilla con azucar y chocolate', 'https://www.maxpixel.net/static/photo/1x/Toppings-Snack-Sweets-Plate-Chocolate-Food-Donut-2590583.jpg')
+  ];
 
   constructor() { }
 
